@@ -6,7 +6,7 @@ int main() {
     double s = 0.0;
     double terme = 1.0; // Début avec le premier terme 1.0 (1/2^0)
 
-    // Demande à l'utilisateur d'entrer un entier n
+    // Demande à l'utilisateur d'entrer un entier n :
     printf("Entrez un entier n : ");
     scanf("%d", &n);
 
