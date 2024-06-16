@@ -17,7 +17,7 @@ int main() {
     // Appel de la fonction pour calculer f(x) :
     resultat = fonctionAffine(m, p, x);
 
-    // Affiche le résultat
+    // Affiche le résultat :
     printf("La valeur de f(x) pour x=%.2lf est: %.2lf\n", x, resultat);
 
     return 0;

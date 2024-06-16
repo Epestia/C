@@ -13,11 +13,12 @@ bool estPremier(int nombre) {
     return true; // Si aucun diviseur trouvé, nombre est premier
 }
 
+//fonction main
 int main() {
-    // Déclaration des variables
+    // Déclaration des variables :
     int nombre;
 
-    // Lecture du nombre à vérifier
+    // Lecture du nombre à vérifier :
     printf("Entrez un nombre : ");
     scanf("%d", &nombre);
 
