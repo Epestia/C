@@ -1,12 +1,12 @@
 #include <stdio.h>
 #define PI 3.14159265358979323846
 
-// Fonction pour calculer le volume d'un cylindre
+// Fonction pour calculer le volume d'un cylindre :
 double volumeCylindre(double rayon, double hauteur) {
     return PI * rayon * rayon * hauteur;
 }
 
-// Fonction pour calculer le volume d'une pyramide
+// Fonction pour calculer le volume d'une pyramide :
 double volumePyramide(double aireBase, double hauteur) {
     return (aireBase * hauteur) / 3.0;
 }
@@ -15,8 +15,8 @@ int main() {
     int choix;
     double rayon, hauteur, aireBase, volume;
 
-    // Afficher le menu
-    printf("Choisissez le volume à calculer:\n");
+    // Afficher le menu :
+    printf("Choisissez un des volumes à calculer:\n");
     printf("1. Volume d'un cylindre\n");
     printf("2. Volume d'une pyramide\n");
     printf("Votre choix: ");
