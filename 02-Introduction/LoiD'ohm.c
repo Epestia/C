@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+//fonction main : 
 int main() {
     double r, i, U;
 
-    // Demander à l'utilisateur de saisir la résistance r
+    // Demander à l'utilisateur de saisir la résistance r :
     printf("Entrez la valeur de la résistance (r en ohms) : ");
     scanf("%lf", &r);
 
