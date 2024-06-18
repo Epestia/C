@@ -15,7 +15,7 @@ unsigned long long factorielle(int n) {
 double loi_de_poisson(double lambda, int k) {
     return (pow(lambda, k) * exp(-lambda)) / factorielle(k);
 }
-Fonction Main : 
+//Fonction Main : 
 int main() {
     double lambda;
     int k;
@@ -25,7 +25,7 @@ int main() {
     scanf("%lf", &lambda);
 
     // Lire le nombre d'événements k :
-    printf("Entrez le nombre d'événements k : ");
+    printf("Entrez le nombre d'événements k que vous souhaitez : ");
     scanf("%d", &k);
 
     // Calculer et afficher la probabilité :
