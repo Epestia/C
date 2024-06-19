@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h> // Pour utiliser strcmp()
 
+//fonction main : 
 int main() {
     char couleur[20]; // Tableau de caractères pour stocker la couleur saisie
 
