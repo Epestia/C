@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//fonction main
 int main() {
     // Déclaration des variables
     float montant_facture, montant_final;

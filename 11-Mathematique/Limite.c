@@ -9,6 +9,7 @@ double rationnelle(double x);
 double calcule_limite(double (*fonction)(double), double x0, double epsilon);
 void menu();
 
+//fonction main : 
 int main() {
     int choix;
     double x0, epsilon = 0.0001;
@@ -20,7 +21,7 @@ int main() {
     printf("Choisissez le type de fonction : ");
     scanf("%d", &choix);
 
-    // Sélection de la fonction selon le choix de l'utilisateur
+    // Sélection de la fonction selon le choix de l'utilisateur :
     switch (choix) {
         case 1:
             fonction = polynome;

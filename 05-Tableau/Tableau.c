@@ -69,6 +69,7 @@ unsigned int hexToDecimalWithoutArray(char hex[]) {
     return num;
 }
 
+//Fonction mergeArrays :
 void mergeArrays(int *a, int n1, int *b, int n2) {
     // Réallocation de la mémoire pour accueillir les éléments de b
     a = (int *)realloc(a, (n1 + n2) * sizeof(int));
@@ -89,6 +90,7 @@ void mergeArrays(int *a, int n1, int *b, int n2) {
     free(b);
 }
 
+//Fonction main :
 int main() {
     int num;
 
